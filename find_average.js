@@ -1,4 +1,3 @@
 function find_average(array) {
-    // your code here
-    return 0;
+  return array.length === 0 ? 0 : array.reduce((acc, ind)=> acc + ind, 0)/array.length
   }
