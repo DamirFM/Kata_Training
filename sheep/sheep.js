@@ -11,9 +11,6 @@
 
 //The correct answer would be 17.
 
-
-
-
 function countSheeps(arrayOfSheep) {
     // TODO May the force be with you
     return arrayOfSheep.reduce((acc, item) => {
